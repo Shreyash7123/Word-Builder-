@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Word Builder - Educational Game</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+  <div class="game-container">
+    <div class="game-header">
+      <h1>🔤 Word Builder 🔤</h1>
+      <p>Spell the word by clicking the letters!</p>
+    </div>
+
+    <div class="instructions">
+      <h3>How to Play:</h3>
+      <p>
+        Look at the emoji hint, then click the letters in the correct order to spell the word.
+        The letters are scrambled — can you figure it out?
+      </p>
+    </div>
+
+    <div class="controls">
+      <button class="btn start-btn" onclick="startGame()">START</button>
+      <button class="btn reset-btn" onclick="resetGame()">RESET</button>
+    </div>
+
+    <div class="progress-bar">
+      <div class="progress-fill" id="progressFill">
+        <span id="progressText">0/10</span>
+      </div>
+    </div>
+
+    <div class="score-board">
+      <div class="score-item">
+        <div class="score-label">Score</div>
+        <div class="score-value" id="score">0</div>
+      </div>
+      <div class="score-item">
+        <div class="score-label">Level</div>
+        <div class="score-value" id="level">1</div>
+      </div>
+    </div>
+
+    <div class="emoji-display" id="emojiDisplay">👋</div>
+    <div class="hint" id="hint">Click START to begin!</div>
+
+    <div class="word-display" id="wordDisplay"></div>
+    <div class="letter-buttons" id="letterButtons"></div>
+
+    <div class="feedback" id="feedback"></div>
+
+    <div class="game-over" id="gameOver">
+      <h2>🎉 Amazing! 🎉</h2>
+      <p id="finalScore">You're a spelling champion!</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
