@@ -102,7 +102,9 @@ This project is created for educational and demonstration purposes.
 
 Shreyash Bokade
 <img width="937" height="803" alt="image" src="https://github.com/user-attachments/assets/a1668d26-e49f-4b4e-b0db-ce11630c4462" />
-<img width="927" height="341" alt="image" src="https://github.com/user-attachments/assets/f5e0629d-d503-4bd4-a0b9-56dd96becba1" />
+<img width="924" height="303" alt="image" src="https://github.com/user-attachments/assets/3e1a38ed-5855-40aa-b4d3-b7c57a76391e" />
+
+
 
 
 
